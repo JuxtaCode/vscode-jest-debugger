@@ -4,4 +4,5 @@ coverage
 .vscode-test/
 dist
 .eslintcache
-/vscode-jest-debugger-0.0.1.vsix
+*.vsix
+

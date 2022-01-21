@@ -2,7 +2,7 @@
   "name": "vscode-jest-debugger",
   "displayName": "Jest Debugger",
   "description": "Debug tests with NPM, PNPM or Yarn (with or without PnP enabled)",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "JuxtaCode",
   "author": "Joe Jorden",
   "repository": {
@@ -10,7 +10,7 @@
     "url": "https://github.com/juxtacode/vscode-jest-debugger.git"
   },
   "license": "MIT",
-  "icon": "public/icon.png",
+  "icon": "public/icon2.png",
   "engines": {
     "vscode": "^1.60.0"
   },
