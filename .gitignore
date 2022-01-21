@@ -2,6 +2,6 @@ out
 node_modules
 coverage
 .vscode-test/
-.vsix
 dist
 .eslintcache
+/vscode-jest-debugger-0.0.1.vsix

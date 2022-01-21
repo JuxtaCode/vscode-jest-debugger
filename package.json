@@ -1,9 +1,9 @@
 {
   "name": "vscode-jest-debugger",
   "displayName": "Jest Debugger",
-  "description": "Debug tests with any package manager including Yarn with PnP enabled",
+  "description": "Debug tests with NPM, PNPM or Yarn (with or without PnP enabled)",
   "version": "0.0.1",
-  "publisher": "juxtacode",
+  "publisher": "JuxtaCode",
   "author": "Joe Jorden",
   "repository": {
     "type": "git",
