@@ -32,7 +32,7 @@ Run & Debug your Jest Tests from
 - yarn 2+ PnP
 - CRA & and similar abstractions
 
-![Extension Example](https://github.com/juxtacode/vscode-jest-debugger/raw/master/public/vscode-jest-debugger.gif)
+![Extension Example](https://github.com/juxtacode/vscode-jest-debugger/raw/main/public/vscode-jest-debugger.gif)
 
 ## Usage with CRA or similar abstractions
 
