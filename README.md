@@ -1,13 +1,18 @@
-# vscode-jest-runner
+<p align="center">
+  <img src="https://raw.githubusercontent.com/juxtacode/vscode-jest-debugger/master/public/icon2.png?raw=true" alt="Jest Debugger: Debug tests with NPM, PNPM or Yarn (with or without PnP enabled)." width="150">
+  <br>
+</p>
+<p align="center">Jest Debugger: Debug tests with NPM, PNPM or Yarn (with or without PnP enabled).</p>
+
+# Jest Debugger
 
 ## Visual Studio Code Marketplace
 
-[VisualStudio Marketplace](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)  
-[Open VSX Registry](https://open-vsx.org/extension/firsttris/vscode-jest-runner)
+[VisualStudio Marketplace](https://marketplace.visualstudio.com/items?itemName=juxtacode.vscode-jest-debugger)  
 
-## Comparison with [vscode-jest](https://github.com/jest-community/vscode-jest)
+## Comparison with [vscode-jest-runner](https://github.com/firsttris/vscode-jest-runner)
 
-[vscode-jest-runner](https://github.com/firsttris/vscode-jest-runner) is focused on running or debugging a specific test or test-suite, while [vscode-jest](https://github.com/jest-community/vscode-jest) is running your current test-suite everytime you change it.
+[Jest Debugger](https://github.com/juxtacode/vscode-jest-debugger) is focused on running or debugging specific test or test-suite using any package manager which it can auto-detect. It also automatically finds your Yarn version on any platform, while [Jest Runner](https://github.com/firsttris/vscode-jest-runner) does not automatically find your package manager or Yarn implementation on every platform.
 
 ## Features
 
@@ -18,16 +23,16 @@ Run & Debug your Jest Tests from
 
 - Context-Menu
 - CodeLens
-- Command Palette (strg+shift+p)
+- Command Palette (ctrl+shift+p or cmd+shift+p)
 
 ## Supports
 
 - yarn & vscode workspaces (monorepo)
 - dynamic jest config resolution
-- yarn 2 pnp
+- yarn 2+ PnP
 - CRA & and similar abstractions
 
-![Extension Example](https://github.com/firsttris/vscode-jest/raw/master/public/vscode-jest.gif)
+![Extension Example](https://github.com/juxtacode/vscode-jest-debugger/raw/master/public/vscode-jest-debugger.gif)
 
 ## Usage with CRA or similar abstractions
 
@@ -68,13 +73,10 @@ module.exports = {
 }
 ```
 
-Check that debugger works:
-![image](https://user-images.githubusercontent.com/1709260/120468727-d542ae00-c3a1-11eb-85ac-986c35ac167f.png)
-
 ## Extension Settings
 
-Jest Runner will work out of the box, with a valid Jest config.  
-If you have a custom setup use the following options to configure Jest Runner:
+Jest Debugger will work out of the box, with a valid Jest config, however, you can use the following settings to configure Jest Debugger:
+
 
 | Command                                     | Description                                                                                                                        |
 | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -89,6 +91,8 @@ If you have a custom setup use the following options to configure Jest Runner:
 | jestdebugger.enableYarnPnpSupport           | Enable if you are using Yarn 2 with Plug'n'Play                                                                                    |
 | jestdebugger.changeDirectoryToWorkspaceRoot | Changes directory to workspace root before executing the test                                                                      |
 | jestdebugger.preserveEditorFocus            | Preserve focus on your editor instead of focusing the terminal on test run                                                         |
+| jestdebugger.runLabel                       | Change the label of the Run command in the text editor                                                         |
+| jestdebugger.debugLabel                     | Change the label of the Debug command in the text editor                                                         |
 
 ## Shortcuts
 
@@ -113,7 +117,7 @@ add this:
 
 ## Want to start contributing features?
 
-[Some open topics get you started](https://github.com/firsttris/vscode-jest-runner/issues)
+[Some open topics get you started](https://github.com/juxtacode/vscode-jest-debugger/issues)
 
 ## Steps to run in development mode
 
